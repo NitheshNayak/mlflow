@@ -2,7 +2,8 @@
 #really
 # Set err=1 if any commands exit with non-zero status as described in
 # https://stackoverflow.com/a/42219754
-err=0
+err=00
+err1 = 1
 trap 'err=1' ERR
 
 echo -e "\n========== black ==========\n"
